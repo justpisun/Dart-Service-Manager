@@ -375,11 +375,16 @@ h6 {
 /* Accordion */
 
 .accordion__item {
+    cursor: pointer;
     border-radius: 5px;
     width: 800px;
     margin: 0 auto;
-    box-shadow: 0px 2px 8px 0 #78909c44;
+    box-shadow: 0px 3px 10px 1px #78909c44;
     margin-bottom: 20px;
+}
+
+.accordion__item.active {
+    box-shadow: 0px 2px 15px 3px #78909c5b;
 }
 
 .accordion__item.active .accordion__content {
@@ -387,6 +392,8 @@ h6 {
 }
 
 .accordion__header {
+    display: flex;
+    justify-content: space-between;
     padding: 10px 25px;
 }
 
