@@ -320,7 +320,7 @@ h6 {
 
 .mini__counts {
     display: flex;
-    width: 400px;
+    width: 25%;
     height: 120px;
     align-items: center;
     justify-content: center;
@@ -348,23 +348,23 @@ h6 {
 
 /* SERVICES */
 
-.services__text {
+.headerblock__text {
     width: 100%;
     height: 100%;
     max-width: 750px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 85px;
     padding-bottom: 33px;
     text-align: center;
     font-size: 15px;
 }
 
-.services__tittle {
+.__tittle {
     font-size: 45px;
     font-weight: 600;
 }
 
-.services__maintext {
+.__maintext {
     padding-top: 10px;
     color: #b0bec5;
     font-size: 15px;
@@ -415,8 +415,8 @@ h6 {
     margin-left: 25px;
 }
 
-.accordion__img {
-    border-radius: 10px;
+.accordion__img img {
+    border-radius: 4px;
 }
 
 .accordion__item:last-child {
@@ -493,4 +493,238 @@ h6 {
 .review__text {
     font-size: 15px;
     font-style: italic;
+}
+
+
+/* OUR TEAM */
+
+.our__team_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our__team_items {
+    cursor: pointer;
+    display: flex;
+    margin: 15px;
+    margin-top: 25px;
+}
+
+.description_out__team {
+    margin: 0 auto;
+    width: 650px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.name_of__teammates {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.subtittle_of__teammates {
+    margin-top: 28px;
+    color: #90a4ae;
+}
+
+.fab {
+    margin: 3px;
+    color: #90a4ae;
+}
+
+.social__media_of_mates {
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* CONTACT US */
+
+.contact__block {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #fafafa;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-bottom: 33px;
+    font-size: 15px;
+}
+
+.container__supfooter {
+    width: 40%;
+}
+
+.tittle__contact_us {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.text__contact_us {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: #b0bec5;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.form__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.first__lastname {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 60px;
+}
+
+.email__phone {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 60px;
+}
+
+.massage__contact {
+    width: 100%;
+    height: 150px;
+}
+
+#small__area {
+    margin-right: 35px;
+    padding: 20px;
+    width: 280px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #061e37;
+    font-family: 'Raleway', sans-serif;
+}
+
+#small__area:last-child {
+    margin-right: 0;
+}
+
+#big__area {
+    font-family: 'Raleway', sans-serif;
+    font-size: 500;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 600px;
+    height: 150px;
+    border-radius: 5px;
+    border: 2px solid #061e37;
+}
+
+.checkbox {
+    margin: 0;
+    margin-left: 1px;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+}
+
+.subsc__btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.get_started {
+    font-size: 16px;
+    text-align: center;
+    border: 1px #1de9b6 solid;
+    border-radius: 5px;
+    padding: 13px 45px;
+    background-color: #1de9b6;
+    text-transform: uppercase;
+    color: #fff;
+    transition: background-color .2s, color .2s;
+}
+
+.get_started:hover {
+    color: #1de9b6;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #061e37;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3%;
+    width: 100%;
+    line-height: 14px;
+}
+
+footer a {
+    color: #fff;
+    transition: color .2s linear;
+}
+
+footer nav a:hover {
+    color: #808080;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    display: flex;
+    flex-direction: row;
+    transition: filter .2s;
+}
+
+.footer__logo:hover {
+    filter: invert(0.5);
+}
+
+.under__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__links_margin {
+    margin: 0 10px;
+}
+
+.footer__links_margin:first-child {
+    margin-left: 0;
+}
+
+.footer__links_margin:last-child {
+    margin-right: 0;
+}
+
+.footer__links {
+    display: flex;
+    align-items: center;
+}
+
+.footer__links a {
+    color: #627181;
+}
+
+.under__footer {
+    margin-top: 60px;
+}
+
+.fa-circle {
+    margin-top: 3px;
+    color: #fff;
+    font-size: 5px;
 }
