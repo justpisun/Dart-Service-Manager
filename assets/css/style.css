@@ -127,7 +127,7 @@ h6 {
     border-radius: 3px;
     border: 1px solid #fff;
     text-transform: lowercase;
-    transition: background-color .2s, color .2s;
+    transition: background-color .5s, color .2s;
 }
 
 .sign__btn:hover {
@@ -664,7 +664,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 3%;
     width: 100%;
     line-height: 14px;
 }
